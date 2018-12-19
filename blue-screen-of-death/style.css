@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI Light";
+  font-weight: 300;
+}
+
+body {
+  font-family: "Segoe UI";
+  color: #FFF;
+  background: #008CFF;
+  margin: 0;
+}
+
+main {
+  margin: 4% 35%;
+}
+
+.emotion {
+  font-size: 8em;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.4em;
+  margin-bottom: 3em;
+}
+
+footer small {
+  font-size: 0.8em;
+}
