@@ -1,7 +1,5 @@
 # Christmas Cards
 
-## Blue Screen of Death
-<img src="/blue-screen-of-death/qrcode.png" width="300px" style="filter: invert(100%); -webkit-filter: invert(100%);">
+- [Blue Screen of Death](http://antonia.elek.hr/christmas-cards/blue-screen-of-death/)
+- [Windows 95](http://antonia.elek.hr/christmas-cards/windows-95/)
 
-## Windows 95
-<img src="/windows-95/qrcode.png" width="300px" style="filter: invert(100%); -webkit-filter: invert(100%);">
