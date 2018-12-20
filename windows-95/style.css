@@ -15,9 +15,9 @@ td{
   border-color:#FFFFFF #808080 #808080 #FFFFFF;
   border-style:solid;
   position:absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  /* top:50%; */
+  /* left:50%; */
+  /* transform: translate(-50%,-50%); */
   padding:1px;
 }
 div.title{
@@ -78,3 +78,24 @@ div.body button{
   position:relative;
   bottom:0px;
 }
+
+/* FALLING SNOW */
+ body{margin:0;height:100%;}
+ canvas{ 
+  position:absolute;top:0;left:0
+ } 
+ .container{
+ postion: relative;
+ }
+ #canvas{
+ height: 100%; 
+ width: 100%; 
+ }
+ #myDiv { 
+  position: absolute;  
+  top:0; 
+  left: 0; 
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+ } 
