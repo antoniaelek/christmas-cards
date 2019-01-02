@@ -1,14 +1,63 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="assets/style.css" media="screen" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 </head>
+<style>
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI Light";
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: #000
+}
+td, th {
+  text-align: center;
+  padding: 10px 30px;
+}
+.center{
+  margin: auto;
+  text-align: center;
+}
+.content {
+  max-width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #efefef;
+}
+.top{
+  background-color: #4F9D67;
+  color: #eee;
+  padding: 10px;
+}
+.bottom {
+  padding: 20px 30px 30px 30px;
+}
+.qr {
+  filter: invert(100%); 
+  -webkit-filter: invert(100%);
+}
+</style>
 <body>
-  <h1>Christmas Cards</h1>
-  <h2>Blue Screen of Death</h2>
-  <a href="http://antonia.elek.hr/christmas-cards/blue-screen-of-death/">
-	<img src="http://antonia.elek.hr/christmas-cards/blue-screen-of-death/qrcode.png" width="256px" style="filter: invert(100%); -webkit-filter: invert(100%);">
-  </a>
-  <h2>Windows 95</h2>
-  <a href="http://antonia.elek.hr/christmas-cards/windows-95/">
-	<img src="http://antonia.elek.hr/christmas-cards/windows-95/qrcode.png" width="256px" style="filter: invert(100%); -webkit-filter: invert(100%);">
-  </a>	
+<div>
+  <div class="center content">
+	<div class="center top">
+	  <h1>Christmas Cards</h1>
+	</div>
+    <table class="center bottom">
+	<tr>
+	  <td>
+	    <a href="http://antonia.elek.hr/christmas-cards/blue-screen-of-death/">
+		  <h1>BSoD</h1>
+		  <img class="qr" src="http://antonia.elek.hr/christmas-cards/blue-screen-of-death/qrcode.png" width="124px">
+	    </a>
+	  </td>
+	  <td>
+	    <a href="http://antonia.elek.hr/christmas-cards/windows-95/">
+		  <h1>Win95</h1>
+		  <img class="qr" src="http://antonia.elek.hr/christmas-cards/windows-95/qrcode.png" width="124px">
+	    </a>	
+	  </td>
+	</tr>
+    </table>
+  </div>
+</div>
 </body>
